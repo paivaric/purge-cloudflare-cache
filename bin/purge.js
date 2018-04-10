@@ -32,8 +32,6 @@ argv.zone = argv.zone || argv._[2]
 argv.domain = argv.domain || argv._[3]
 argv.folder = argv.folder || argv._[4]
 
-console.log(JSON.stringify(argv, null, 2))
-
 purge(argv).then(result => {
   console.log(result)
   process.exit(0)
