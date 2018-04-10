@@ -2,9 +2,9 @@
   "name": "purge-cloudflare-cache",
   "version": "1.0.3",
   "description": "Purges cloudflare cache based on a local folder's content. It reads file names from folder and based on a specific domain it purges the cache.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "bin": {
-    "purge": "index.js"
+    "purge": "bin/purge.js"
   },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
@@ -30,6 +30,7 @@
   "homepage": "https://github.com/paivaric/purge-cloudflare-cache#readme",
   "dependencies": {
     "fs-readdir-recursive": "^1.1.0",
-    "r2": "^2.0.1"
+    "r2": "^2.0.1",
+    "yargs": "^11.0.0"
   }
 }

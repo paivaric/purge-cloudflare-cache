@@ -10,13 +10,21 @@ using npx:
 
 `npm install -g npx`
 
-`npx purge-cloudflare-cache your@email.com the_domain_zone your_cloudflare_key https://your.website.com some/folder`
+`npx purge-cloudflare-cache your@email.com your_cloudflare_key the_domain_zone https://your.website.com some/folder`
+
+or using yargs
+
+`npx purge-cloudflare-cache -e your@email.com -k your_cloudflare_key -z the_domain_zone -d https://your.website.com -f some/folder`
 
 or just install it globally and run purge command
 
 `npm install -g purge-cloudflare-cache`
 
-`purge your@email.com the_domain_zone your_cloudflare_key https://your.website.com some/folder`
+`purge your@email.com your_cloudflare_key the_domain_zone https://your.website.com some/folder`
+
+or using yargs
+
+`purge -e your@email.com -k your_cloudflare_key -z the_domain_zone -d https://your.website.com -f some/folder`
 
 Ex.:
 
