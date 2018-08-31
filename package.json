@@ -1,6 +1,6 @@
 {
   "name": "purge-cloudflare-cache",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Purges cloudflare cache based on a local folder's content. It reads file names from folder and based on a specific domain it purges the cache.",
   "main": "lib/index.js",
   "bin": {
